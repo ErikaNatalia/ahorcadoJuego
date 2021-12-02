@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+.titulo{
+width: 250px;
+height: 300px;
+display: flex;
+justify-items: center;
+}
+
+.informacion{
+    font-family: 'Cinzel', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:  20px;
+    margin-right: 40px;
+}
+
+.botonjugar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 50px;
+
+}
