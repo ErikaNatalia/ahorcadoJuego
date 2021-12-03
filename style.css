@@ -3,3 +3,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+.background{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-image: url(./img/fondodesk.png)
+}
+#imagen{
+    width: 383px;
+    height: 626px;
+    margin-left: 15%;
+    background-image: url(./img/finns.png);
+}
+.title{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    
+}
+.letter-box{
+    width: 30%;
+    height: 70vh;
+    margin-top: 10vh;
+    text-align: center;
+    float: left;
+}
+#letra{
+    width: 25%;
+    height: 10vh;
+    margin-top: 10vh;
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+    text-align: center;
+}
+#calificar{
+    font-family: 'Cinzel', serif;
+    width: 25%;
+    height: 5vh;
+}
+#output{
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+    margin-top: 5vh;
+}
+
+
+/*#ganador{
+    width: 100%;
+    display: none;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: blueviolet;
+}*/
