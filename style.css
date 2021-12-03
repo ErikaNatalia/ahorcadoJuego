@@ -1,17 +1,18 @@
 
-*{
-    
+body{
     box-sizing: border-box;
+    background: -webkit-linear-gradient(black,gold);
+    background: -moz-linear-gradient(black,gold);
+    background: -o-linear-gradient(black,gold);
 }
 
 .titulo{
-width: 250px;
-height: 300px;
+width: 100%;
 display: flex;
-justify-items: center;
+justify-content: flex-start;
 align-items: center;
-margin-left: 100px;
-margin-top: 10px;
+
+
 }
 
 .informacion{
@@ -19,15 +20,18 @@ margin-top: 10px;
     font-family: 'Josefin Sans', sans-serif;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    margin-left:  20px;
-    margin-right: 40px;
-}
+    align-content: flex-end;
+    margin-left:  50px;
+    margin-right: 150px;
+    
+    font-size: 32px;
+ }  
 
 .botonjugar{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+   
     margin-bottom: 100px;
+   
 
 }
