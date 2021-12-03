@@ -22,16 +22,17 @@ align-items: center;
     justify-content: flex-start;
     align-content: flex-end;
     margin-left:  50px;
-    margin-right: 150px;
-    
-    font-size: 32px;
+    margin-right: 300px;
+    margin-top: 10px;
+    font-size: 23px;
+    padding: 0%;
  }  
 
 .botonjugar{
     display: flex;
     justify-content: flex-end;
-   
-    margin-bottom: 100px;
+   padding: 0%;
+    margin: 0px;
    
 
 }

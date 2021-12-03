@@ -8,8 +8,27 @@ body{
     }
 .bloque2{
         background: yellow;
-        width: 350px;
-        height: 200px;
-        font-size:  80px;
-        text-align: center;
+        width: 550px;
+        height: 170px;
+
     }
+
+.ganaste{
+    font-size:  40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   padding: 40px;
+}
+
+.retorno3{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+ .retorno4{
+     display: flex;
+     justify-content: space-around;
+     margin-right: 450px;
+ }
