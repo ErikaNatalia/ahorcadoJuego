@@ -22,12 +22,15 @@ document.querySelector('#calificar').addEventListener('click', () =>{
         fallos++;
         document.querySelector('#imagen').style.backgroundPosition = -(383*fallos) + 'px 0';
         if(fallos == 6){
-            alert('Perdiste')
+        location.href = "Gameover.html";
+        //document.querySelector('.botonjugar').click();
+        //alert('Perdiste')
         }
     }
     else{
             if(guiones.indexOf('_') <0){
-                alert('ganaste');
+                location.href = "felicidades.html";
+                //alert('ganaste');
                 //document.querySelector('#ganador').style.display = 'flex';
             }
         
