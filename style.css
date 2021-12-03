@@ -1,5 +1,38 @@
-*{
-    margin: 0;
-    padding: 0;
+
+body{
     box-sizing: border-box;
+    background: -webkit-linear-gradient(black,gold);
+    background: -moz-linear-gradient(black,gold);
+    background: -o-linear-gradient(black,gold);
+}
+
+.titulo{
+width: 100%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+
+
+}
+
+.informacion{
+    font-family: 'Cinzel', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+    margin-left:  50px;
+    margin-right: 300px;
+    margin-top: 10px;
+    font-size: 23px;
+    padding: 0%;
+ }  
+
+.botonjugar{
+    display: flex;
+    justify-content: flex-end;
+   padding: 0%;
+    margin: 0px;
+   
+
 }

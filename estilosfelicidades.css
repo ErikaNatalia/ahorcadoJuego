@@ -1,0 +1,34 @@
+body{
+    background-image: url(img/image\ 15.png);
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    
+    }
+.bloque2{
+        background: yellow;
+        width: 550px;
+        height: 170px;
+
+    }
+
+.ganaste{
+    font-size:  40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   padding: 40px;
+}
+
+.retorno3{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+ .retorno4{
+     display: flex;
+     justify-content: space-around;
+     margin-right: 450px;
+ }
